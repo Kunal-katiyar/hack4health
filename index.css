@@ -1,0 +1,41 @@
+body {
+    font-family: "Inter", serif;
+}
+
+.topbar-icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 75px;
+}
+
+.neon {
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff,
+        0 0 50px #7FD0F3;
+}
+
+.button {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.5s;
+}
+
+.button p {
+    color: white;
+    font-size: 20px;
+}
+
+.button i {
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
