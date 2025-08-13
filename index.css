@@ -1,4 +1,4 @@
-body {
+body h1, body p, body h2{
     font-family: "Inter", serif;
 }
 
@@ -16,15 +16,15 @@ body {
 }
 
 .button {
-    height: 50px;
-    width: 180px;
-    border-radius: 10px;
+    height: 55px;
+    width: 160px;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.3s;
 }
 
 .button p {
@@ -34,8 +34,13 @@ body {
 
 .button i {
     color: white;
+    transition: all ease-in-out 0.3s;
 }
 
 .button:hover {
     transform: scale(1.05);
+}
+
+.button:hover > i {
+    transform: translateX(3px);
 }
