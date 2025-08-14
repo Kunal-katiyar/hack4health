@@ -44,3 +44,30 @@ body h1, body p, body h2{
 .button:hover > i {
     transform: translateX(3px);
 }
+
+@media (max-width: 768px) {
+    .button {
+        height: 45px;
+        width: 120px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .button p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .topbar-icon {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 55px;
+    }
+}
